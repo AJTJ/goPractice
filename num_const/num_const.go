@@ -5,8 +5,7 @@ import (
 	"math"
 )
 
-// Pi const declarations cannot be changed with :=
-const Pi = 3.14
+// const pi = 3.14
 
 // Big shifts the number left by 100 zeroes
 // Small removes 99 of those zeroes

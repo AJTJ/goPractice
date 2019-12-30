@@ -15,7 +15,7 @@ func Sqrt(x float64) float64 {
 		if d := math.Abs(z - x); d < delta {
 			fmt.Println("here")
 			z = x
-			return z * z
+			return z
 		}
 		z = x
 		fmt.Println(i, z)

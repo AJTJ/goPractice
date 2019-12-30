@@ -1,5 +1,5 @@
 CURRENT STATUS
-https://tour.golang.org/basics/16
+see for.md
 
 ## Exported names
 
@@ -10,12 +10,10 @@ https://tour.golang.org/basics/16
 
 ### variables
 
-**check exp.go**
-
 `var i bool`
 
 - declares a list of variables with type being last
-- variable declaration at package or function level
+- generally for variable declaration at package or function level
 
 `var i int = 1`
 
@@ -34,6 +32,8 @@ https://tour.golang.org/basics/16
 `const`
 
 - same as var, but can't be changed with `:=`
+
+
 
 ### type conversion and inference
 
