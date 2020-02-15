@@ -1,6 +1,3 @@
-CURRENT STATUS
-see for.md
-
 ## Exported names
 
 - capitalized names like `Pi` are exported.
@@ -33,6 +30,15 @@ see for.md
 
 - same as var, but can't be changed with `:=`
 
+### Other Variable notes
+
+ Variables declared without an explicit initial value are given their zero value.
+
+The zero value is:
+
+    0 for numeric types,
+    false for the boolean type, and
+    "" (the empty string) for strings.
 
 
 ### type conversion and inference
@@ -80,3 +86,26 @@ func add(x, y int) int {
 |complex64 |complex 128 |
 
 represents a Unicode code point
+
+## Structs
+```
+type Vertex struct {
+	X int
+	Y int
+}
+```
+```
+d := Vertex{1, 2}
+```
+
+## Arrays
+
+The type [n]T is an array of n values of type T. 
+
+```
+var a [2]string
+```
+```
+twoWords := [2]string{"blah", "woof"}
+```
+- array length is part of its type

@@ -9,7 +9,7 @@ import (
 func main() {
 	r := chi.NewRouter()
 	r.Get("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("DO ITddd dd"))
+		w.Write([]byte("DO ITddgg  fff"))
 	})
 	http.ListenAndServe(":3000", r)
 }
